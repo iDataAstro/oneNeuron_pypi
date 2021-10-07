@@ -7,7 +7,7 @@ PROJECT_NAME = "oneNeuron_pypi"
 USER_NAME = "jrk90210us"
 
 setuptools.setup(
-    name=f"{PROJECT_NAME}-{PROJECT_NAME}",
+    name=f"{PROJECT_NAME}-{USER_NAME}",
     version="0.0.1",
     author="Jatin",
     author_email="jrk90210us@gmail.com",
