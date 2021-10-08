@@ -8,7 +8,7 @@ USER_NAME = "jrk90210us"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.1",
+    version="0.0.2",
     author="Jatin",
     author_email="jrk90210us@gmail.com",
     description="Packaging Perceptron - oneNeuron",
@@ -26,4 +26,11 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
+    install_requires=[
+        "numpy",
+        "tqdm",
+        "matplotlib",
+        "pandas",
+        "joblib"
+    ]
 )
