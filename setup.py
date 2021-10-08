@@ -8,7 +8,7 @@ USER_NAME = "jrk90210us"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.2",
+    version="0.0.3",
     author="Jatin",
     author_email="jrk90210us@gmail.com",
     description="Packaging Perceptron - oneNeuron",
